@@ -1,9 +1,21 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Home } from "./home/Home";
+import { Root } from "./root/Root";
+import { NotFound } from "./NotFound";
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Root />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+    ],
+  },
+  {
+    path: '*',
+    element: <NotFound />,
   },
 ]);
