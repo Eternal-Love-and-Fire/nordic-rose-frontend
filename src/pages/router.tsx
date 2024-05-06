@@ -5,7 +5,7 @@ import { NotFound } from "./NotFound";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/nordic-rose-frontend/",
     element: <Root />,
     children: [
       {

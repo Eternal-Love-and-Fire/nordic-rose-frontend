@@ -8,7 +8,7 @@ export const NotFound = () => {
       </p>
 
       <Link
-        to={`/`}
+        to={`/nordic-rose-frontend/`}
         className="border-b-2 dark:border-white hover:opacity-50 duration-300 w-fit mx-auto"
       >
         Back to home

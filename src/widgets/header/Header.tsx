@@ -13,7 +13,7 @@ export const Header = () => {
           <nav className="">
             <ul className="hidden md:flex gap-8">
               <Link
-                to={`/`}
+                to={`/nordic-rose-frontend/`}
                 className="w-12 py-4 text-center border-b-2 border-transparent hover:border-black hover:dark:border-white hover:opacity-70 duration-300 "
               >
                 Blog
